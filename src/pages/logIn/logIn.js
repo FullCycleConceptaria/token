@@ -1,8 +1,7 @@
 import styles from './logIn.module.scss';
 
-
 import Input from '../../components/Input/Input';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logotoken.png';
 import itsme from '../../assets/images/itsme.png';
 import { useState } from 'react';
 import { user } from '../../datas/user';
