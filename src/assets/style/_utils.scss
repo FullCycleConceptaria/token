@@ -456,6 +456,10 @@
   padding-right: 3.6rem;
 }
 
+.pr-40 {
+  padding-right: 4rem;
+}
+
 .pb-5 {
   padding-bottom: 0.5rem;
 }
@@ -542,6 +546,10 @@
 
 .pl-36 {
   padding-left: 3.6rem;
+}
+
+.pl-40 {
+  padding-left: 4rem;
 }
 
 // border //
@@ -854,6 +862,14 @@
   width: max-content;
 }
 
+.w-half {
+  width: 50%;
+}
+
+.w-20pourcent{
+  width: 20%;
+}
+
 .w-16 {
   width: 1.6rem;
 }
@@ -922,8 +938,16 @@
   height: 3rem;
 }
 
+.h-35 {
+  height: 3.5rem;
+}
+
 .h-40 {
   height: 4rem;
+}
+
+.h-45 {
+  height: 4.5rem;
 }
 
 .h-50 {
