@@ -12,5 +12,6 @@
   font-weight: 00;
   &::placeholder {
     color: var(--on-surface-variant);
+    font-weight: 500;
   }
 }

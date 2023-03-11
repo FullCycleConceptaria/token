@@ -1,7 +1,7 @@
 import styles from './logIn.module.scss';
 
 import Input from '../../components/Input/Input';
-import Logo from '../../assets/images/Logo.svg';
+import logo from '../../assets/images/logo.svg';
 import itsme from '../../assets/images/itsme.png';
 import { useState } from 'react';
 import { user } from '../../datas/user';
@@ -13,20 +13,20 @@ export default function LogIn() {
   const navigate = useNavigate();
   return (
     <div className='p-40 h-full d-flex-column ai-center jc-center'>
-      <img src={Logo} alt='logo' />
+      <img src={logo} alt='logo' />
       <NavLink
         className='w-full h-45 d-flex-row ai-center jc-center bora-8'
         style={{ border: '2px solid #79747E', marginTop: '11rem' }}
         to='/home'
       >
-        <img src={itsme} alt="itsme" className='h-30 mr-16' />
+        <img src={itsme} alt='itsme' className='h-30 mr-16' />
         <p className='ff-primary-font c-on-surface-variant fs-normal fw-500'>
           S'identifier avec itsme
         </p>
       </NavLink>
       <div className={styles.divider} style={{ marginTop: '2.4rem' }}>
         <div></div>
-        <p>ou</p>
+        <p className='c-on-surface-variant'>ou</p>
       </div>
       <form
         className='d-flex-column w-full'
@@ -53,6 +53,15 @@ export default function LogIn() {
           </p>
         </button>
       </form>
+      <div className='ff-primary-font c-on-surface-variant fs-small mt-16'>
+        Pas de compte ? <NavLink className='c-primary' to='/sign-up'>S'inscrire</NavLink>
+      </div>
+      <NavLink className='ff-primary-font c-primary fs-small mt-8'>
+        Conditions d'utilisation
+      </NavLink>
+      <NavLink className='ff-primary-font c-primary fs-small mt-8'>
+        Mot de passe oublié ?
+      </NavLink>
     </div>
   );
 }
