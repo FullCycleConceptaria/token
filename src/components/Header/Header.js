@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 
 export default function Header(){
     return(
-        <header className='d-flex-row pos-absolute b-surface-1 p-16 w-full pl-40 pr-40 jc-space-between ai-center'>
+        <header className='d-flex-row b-surface-1 p-16 w-full pl-40 pr-40 jc-space-between ai-center'>
             <div className='d-flex-row ai-center'>
                 <img className='h-40 cursor-pointer pr-8' src={logoCarre} alt="Token" />
                 <div className={styles.headerCarre}></div>

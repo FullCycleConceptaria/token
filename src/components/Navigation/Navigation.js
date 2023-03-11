@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div className='w-full pl-20 pr-20'>
       <div
-        style={{ marginTop: '95px', overflowX: 'auto' }}
+        style={{ marginTop: '24px', overflowX: 'auto' }}
         className={`b-surface-1 d-flex-row jc-space-between ai-center w-full bora-100 ${styles.scroll}`}
       >
         <NavigationLinks

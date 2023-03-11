@@ -5,7 +5,7 @@ import Navigation from '../../components/Navigation/Navigation'
 
 export default function Home() {
   return (
-    <div>
+    <div className='w-full h-full d-flex-column' style={{maxHeight: '100vh'}}>
       <Header />
       <Navigation />
       <Outlet />
