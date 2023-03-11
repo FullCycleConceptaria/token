@@ -1,13 +1,27 @@
 import './default.scss';
-import Input from './components/Input/Input';
-import NavBar from './components/NavBar/NavBar'
 
-function App() {
+import { Outlet, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+
+export default function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const storage = localStorage;
+    //storage.setItem('isLoggedIn', 'false');
+    if (storage) {
+      storage.getItem('isLoggedIn');
+      if (storage.isLoggedIn === 'true') {
+        navigate('/home');
+        console.log('logged in');
+      } else {
+        navigate('/sign-up');
+        console.log('not logged in');
+      }
+    }
+  }, []);
   return (
-    <div className="App">
-      <NavBar />
+    <div className='App'>
+      <Outlet />
     </div>
   );
 }
-
-export default App;
