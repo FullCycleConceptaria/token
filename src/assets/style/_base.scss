@@ -47,25 +47,19 @@ a {
   font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0;
 }
 
+.color {
+  color: var(--on-surface-variant);
+}
+
 .active {
-  & div {
-    background: var(--primary-container);
-    & span {
-      color: var(--on-surface);
-    }
+  background: var(--primary-container);
+  & span {
+    color: var(--on-primary-container);
   }
   & p {
-    color: var(--on-surface);
+    color: var(--on-primary-container);
   }
-  &:hover {
-    & div {
-      background: var(--primary-container);
-      & span {
-        color: var(--on-surface);
-      }
-    }
-    & p {
-      color: var(--on-surface);
-    }
+  & .color {
+    color: var(--on-primary-container);
   }
 }
