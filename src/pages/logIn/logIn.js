@@ -1,8 +1,8 @@
 import styles from './logIn.module.scss';
 
 import Input from '../../components/Input/Input';
-import Logo from '../../assets/img/Logo.svg';
-import itsme from '../../assets/img/itsme.png';
+import Logo from '../../assets/images/Logo.svg';
+import itsme from '../../assets/images/itsme.png';
 import { useState } from 'react';
 import { user } from '../../datas/user';
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -45,7 +45,7 @@ export default function LogIn() {
           onInput={(e) => setPassword(e.target.value)}
         />
         <button
-          className='w-full d-flex-row bora-8 h-45 b-primary ai-center jc-center mt-24'
+          className='w-full d-flex-row bora-8 h-45 b-primary ai-center jc-center mt-24 cursor-pointer'
           style={{ outline: 'none', border: 'none' }}
         >
           <p className='ff-primary-font c-on-primary fs-normal fw-500'>
