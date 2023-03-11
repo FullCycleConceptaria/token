@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logotoken.png';
+import logo from '../../assets/images/logo-token.svg';
 
 export default function SignUp() {
   return (
