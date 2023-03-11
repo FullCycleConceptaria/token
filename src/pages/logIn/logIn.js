@@ -1,7 +1,7 @@
 import styles from './logIn.module.scss';
 
 import Input from '../../components/Input/Input';
-// import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.svg';
 import itsme from '../../assets/images/itsme.png';
 import { useState } from 'react';
 import { user } from '../../datas/user';
@@ -13,7 +13,7 @@ export default function LogIn() {
   const navigate = useNavigate();
   return (
     <div className='p-40 h-full d-flex-column ai-center jc-center'>
-      {/* <img src={logo} alt='logo' /> */}
+      <img src={logo} alt='logo' />
       <NavLink
         className='w-full h-45 d-flex-row ai-center jc-center bora-8'
         style={{ border: '2px solid #79747E', marginTop: '11rem' }}
