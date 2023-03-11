@@ -16,9 +16,11 @@ export default function CardSwipe({
         }}
       >
         <div
-          className='d-flex-row b-primary-container overflow-hidden'
-          style={{ height: '55%', background: imgPresentation }}
-        ></div>
+          className='d-flex-row  overflow-hidden'
+          style={{background:`url(${imgPresentation}) no-repeat center/cover`, height: '55%', maxHeight: '55%'}}
+        >
+          {/* <img src={imgPresentation} alt={title} style={{background: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} /> */}
+        </div>
         <div className='p-16'>
           <div className='d-flex-row ai-center jc-space-between'>
             <div className='d-flex-row'>

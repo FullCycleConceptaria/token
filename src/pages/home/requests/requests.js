@@ -14,8 +14,8 @@ export default function Requests({}) {
         imgProfile={userPicture}
         date={`Aujourd'hui 15:00`}
         username='Amélie Dubois'
-        title='bonjour je peux venir en aide pour déblayer un jardin!'
-        description={`mon jardin est dans un piteux état et j'aimerais avoir un peu d'aide car je me fais vieille et je manque de temps.`}
+        title="Besoin d'aide pour réarranger mon jardin"
+        description={`Mon jardin est dans un piteux état et j'aimerais avoir un peu d'aide car je me fais vieille et je manque de temps.`}
       />
       <CardSwipe imgPresentation={garden} />
     </div>
