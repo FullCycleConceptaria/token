@@ -11,7 +11,7 @@ export default function App() {
     if (storage) {
       storage.getItem('isLoggedIn');
       if (storage.isLoggedIn === 'true') {
-        navigate('/home');
+        navigate('/home/requests');
         console.log('logged in');
       } else {
         navigate('/log-in');

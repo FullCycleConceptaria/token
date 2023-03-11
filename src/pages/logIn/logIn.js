@@ -17,7 +17,7 @@ export default function LogIn() {
       <NavLink
         className='w-full h-45 d-flex-row ai-center jc-center bora-8'
         style={{ border: '2px solid #79747E', marginTop: '11rem' }}
-        to='/home'
+        to='/home/requests'
       >
         <img src={itsme} alt='itsme' className='h-30 mr-16' />
         <p className='ff-primary-font c-on-surface-variant fs-normal fw-500'>
@@ -33,9 +33,7 @@ export default function LogIn() {
         onSubmit={(e) => {
           e.preventDefault();
           if (email === user[0].email && password === user[0].password) {
-            navigate('/home');
-          } else {
-            console.log(password);
+            navigate('/home/requests');
           }
         }}
       >
