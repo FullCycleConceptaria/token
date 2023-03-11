@@ -1,0 +1,23 @@
+:root {
+    --primary: #6750A4;
+    --hover-primary: #7F67BE;
+    --on-primary: #FFFFFF;
+    --primary-container: #EADDFF;
+    --on-primary-container: #21005D;
+  
+    --surface: #ffffff;
+    --surface-1: linear-gradient(0deg, rgba(103, 80, 164, 0.05), rgba(103, 80, 164, 0.05)), #FFFBFE;
+    --surface-2: linear-gradient(0deg, rgba(103, 80, 164, 0.08), rgba(103, 80, 164, 0.08)), #FFFBFE;
+    --surface-3: linear-gradient(0deg, rgba(103, 80, 164, 0.11), rgba(103, 80, 164, 0.11)), #FFFBFE;
+    --surface-4: linear-gradient(0deg, rgba(103, 80, 164, 0.12), rgba(103, 80, 164, 0.12)), #FFFBFE;
+    --surface-5: linear-gradient(0deg, rgba(103, 80, 164, 0.14), rgba(103, 80, 164, 0.14)), #FFFBFE;
+    --on-surface: #1C1B1F;
+    --on-surface-variant: #49454F;
+  
+    --primary-font: 'Roboto', sans-serif;
+    --text-large: 4.5rem;
+    --text-medium: 3.6rem;
+    --text-normal-plus: 2.4rem;
+    --text-normal: 1.6rem;
+    --text-small: 1.2rem;
+  }

@@ -1,0 +1,61 @@
+@import './variable';
+
+// background //
+
+.b-none {
+  background: none;
+}
+
+.b-primary {
+  background: var(--primary);
+}
+
+.b-primary-container {
+  background: var(--primary-container);
+}
+
+.b-surface {
+  background: var(--surface);
+}
+
+.b-surface-1 {
+  background: var(--surface-1);
+}
+
+.b-surface-2 {
+  background: var(--surface-2);
+}
+
+.b-surface-3 {
+  background: var(--surface-3);
+}
+
+.b-surface-4 {
+  background: var(--surface-4);
+}
+
+.b-surface-5 {
+  background: var(--surface-5);
+}
+
+// color //
+
+.c-none {
+  color: none;
+}
+
+.c-on-primary {
+  color: var(--on-primary);
+}
+
+.c-on-primary-container {
+  color: var(--on-primary-container);
+}
+
+.c-on-surface {
+  color: var(--on-surface);
+}
+
+.c-on-surface-variant {
+  color: var(--on-surface-variant);
+}
