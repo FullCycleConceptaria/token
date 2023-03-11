@@ -16,7 +16,7 @@ export default function CardSwipe({
         }}
       >
         <div
-          className='d-flex-row  overflow-hidden'
+          className='d-flex-row  overflow-hidden b-primary-container'
           style={{background:`url(${imgPresentation}) no-repeat center/cover`, height: '55%', maxHeight: '55%'}}
         >
           {/* <img src={imgPresentation} alt={title} style={{background: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} /> */}
