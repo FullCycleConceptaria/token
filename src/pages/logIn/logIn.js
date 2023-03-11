@@ -2,9 +2,10 @@ import styles from './logIn.module.scss';
 
 import Input from '../../components/Input/Input';
 import Logo from '../../assets/img/Logo.svg';
+import itsme from '../../assets/img/itsme.png';
 import { useState } from 'react';
 import { user } from '../../datas/user';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 export default function LogIn() {
   const [email, setEmail] = useState('');
@@ -13,7 +14,17 @@ export default function LogIn() {
   return (
     <div className='p-40 h-full d-flex-column ai-center jc-center'>
       <img src={Logo} alt='logo' />
-      <div className={styles.divider}>
+      <NavLink
+        className='w-full h-45 d-flex-row ai-center jc-center bora-8'
+        style={{ border: '2px solid #79747E', marginTop: '11rem' }}
+        to='/home'
+      >
+        <img src={itsme} alt="itsme" className='h-30 mr-16' />
+        <p className='ff-primary-font c-on-surface-variant fs-normal fw-500'>
+          S'identifier avec itsme
+        </p>
+      </NavLink>
+      <div className={styles.divider} style={{ marginTop: '2.4rem' }}>
         <div></div>
         <p>ou</p>
       </div>
@@ -29,7 +40,10 @@ export default function LogIn() {
         }}
       >
         <Input placeholder='Email' onInput={(e) => setEmail(e.target.value)} />
-        <Input placeholder='Mot de passe' onInput={(e) => setPassword(e.target.value)} />
+        <Input
+          placeholder='Mot de passe'
+          onInput={(e) => setPassword(e.target.value)}
+        />
         <button
           className='w-full d-flex-row bora-8 h-45 b-primary ai-center jc-center mt-24'
           style={{ outline: 'none', border: 'none' }}
