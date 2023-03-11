@@ -1,5 +1,13 @@
-export default function Home () {
+import { Outlet } from "react-router-dom";
+import Header from "../../components/Header/Header";
+import NavBar from '../../components/NavBar/NavBar'
+
+export default function Home() {
   return (
-    <p>home</p>
+    <div>
+      <Header />
+      <Outlet />
+      <NavBar />
+    </div>
   )
 }
