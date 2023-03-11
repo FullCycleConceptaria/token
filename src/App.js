@@ -7,7 +7,7 @@ export default function App() {
   const navigate = useNavigate();
   useEffect(() => {
     const storage = localStorage;
-    storage.setItem('isLoggedIn', 'true');
+    //storage.setItem('isLoggedIn', 'true');
     if (storage) {
       storage.getItem('isLoggedIn');
       if (storage.isLoggedIn === 'true') {
