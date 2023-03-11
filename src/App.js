@@ -14,7 +14,7 @@ export default function App() {
         navigate('/home');
         console.log('logged in');
       } else {
-        navigate('/sign-up');
+        navigate('/log-in');
         console.log('not logged in');
       }
     }

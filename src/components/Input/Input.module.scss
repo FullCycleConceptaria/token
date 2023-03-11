@@ -1,0 +1,15 @@
+@import '../../assets/style/variable';
+
+.input {
+  color: var(--on-surface);
+  outline: none;
+  border: 0.2rem solid var(--outline);
+  border-radius: .8rem;
+  padding: .8rem 2.4rem;
+  font-size: 1.6rem;
+  height: 4.5rem;
+  width: 100%;
+  &::placeholder {
+    color: var(--on-surface-variant);
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../assets/style/variable';
+
+.divider {
+  margin-top: 1.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  & div {
+    height: 1px;
+    width: 100%;
+   background: var(--outline);
+  }
+  & p {
+    position: absolute;
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    background: #fff;
+  }
+}
