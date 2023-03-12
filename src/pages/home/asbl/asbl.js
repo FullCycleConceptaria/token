@@ -1,5 +1,7 @@
 import BasicCard from "../../../components/BasicCard/BasicCard";
 import bistanclac from "../../../assets/images/bistanclac.png"
+import crvi from '../../../assets/images/crvi.jpg'
+import aufildulien from '../../../assets/images/aufildulien.png'
 
 export default function Asbl() {
   return (
@@ -12,10 +14,12 @@ export default function Asbl() {
       <BasicCard
         title='CRVI'
         text="Promotion d'échanges culturels"
+        img={crvi}
       />
       <BasicCard
         title='Au fil du lien'
         text="Parrainage d'enfants en difficulté"
+        img={aufildulien}
       />
     </div>
   );
