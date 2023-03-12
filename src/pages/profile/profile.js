@@ -8,7 +8,7 @@ export default function Profile(){
         <div className='d-flex-column w-full'>
             <HeaderProfile />
             <div>
-                <ProfileButtons to='profile' symbol='account_circle' firstText='Profil' secondText='Modifier votre profil'/>
+                <ProfileButtons to='profile-editing' symbol='account_circle' firstText='Profil' secondText='Modifier votre profil'/>
                 <Divider />
                 <ProfileButtons to='requests' symbol='handshake' firstText='Demandes' secondText='Vos demandes les plus récentes'/>
                 <Divider />
