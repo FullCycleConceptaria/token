@@ -45,7 +45,7 @@ export default function CardSwipe({
             <p className='fs-normal ff-primary-font c-on-surface fw-500'>
               {title}
             </p>
-            <p className='fs-small ff-primary-font c-on-surface-variant fw-500 mt-8'>
+            <p className='fs-normal ff-primary-font c-on-surface-variant fw-400 mt-8'>
               {description}
             </p>
           </div>
