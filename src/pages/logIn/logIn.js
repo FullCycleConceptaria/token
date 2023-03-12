@@ -54,12 +54,12 @@ export default function LogIn() {
       <div className='ff-primary-font c-on-surface-variant fs-small mt-16'>
         Pas de compte ? <NavLink className='c-primary' to='/sign-up'>S'inscrire</NavLink>
       </div>
-      <NavLink className='ff-primary-font c-primary fs-small mt-8'>
+      <a className='ff-primary-font c-primary fs-small mt-8'>
         Conditions d'utilisation
-      </NavLink>
-      <NavLink className='ff-primary-font c-primary fs-small mt-8'>
+      </a>
+      <a className='ff-primary-font c-primary fs-small mt-8'>
         Mot de passe oublié ?
-      </NavLink>
+      </a>
     </div>
   );
 }
