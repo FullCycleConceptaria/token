@@ -5,15 +5,15 @@ export default function Asbl() {
     <div className='w-full h-full pr-20 pb-20 pl-20'>
       <BasicCard
         title='Bistanclac'
-        text='nous faisons des ateliérs pour sociabiliser les gens'
+        text='Nous faisons des ateliers pour sociabiliser les gens'
       />
       <BasicCard
         title='Bistanclac'
-        text='nous faisons des ateliérs pour sociabiliser les gens'
+        text='Nous faisons des ateliers pour sociabiliser les gens'
       />
       <BasicCard
         title='Bistanclac'
-        text='nous faisons des ateliérs pour sociabiliser les gens'
+        text='Nous faisons des ateliers pour sociabiliser les gens'
       />
     </div>
   );
