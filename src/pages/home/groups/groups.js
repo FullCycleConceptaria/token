@@ -5,15 +5,15 @@ export default function Groups() {
     <div className='w-full h-full pr-20 pb-20 pl-20'>
       <BasicCard
         title='Groupe de la section informatique'
-        text='juste un groupe de classe comme les autres'
+        text='Juste un groupe de classe comme les autres'
       />
       <BasicCard
-        title='Groupe de la section informatique'
-        text='juste un groupe de classe comme les autres'
+        title='Hodimont'
+        text="Groupe de la rue d'Hodimont et du terrain d'aventure"
       />
       <BasicCard
-        title='Groupe de la section informatique'
-        text='juste un groupe de classe comme les autres'
+        title='Petit-Rechain'
+        text="Rue Petit-Rechain et son calme absolu"
       />
     </div>
   );

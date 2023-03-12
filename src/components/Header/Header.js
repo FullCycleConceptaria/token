@@ -1,6 +1,8 @@
 import logoCarre from '../../assets/images/logo-token.svg'
 import profilePicture from '../../assets/images/profile-picture.svg'
 
+import { NavLink } from 'react-router-dom'
+
 import styles from './Header.module.scss'
 
 export default function Header(){
@@ -13,7 +15,7 @@ export default function Header(){
             </div>
             <div className='d-flex-row ai-center jc-space-around'>
                 <span style={{fontSize : '28px'}} className="material-symbols-outlined c-on-surface cursor-pointer">notifications</span>
-                <img className='h-45 pl-15 cursor-pointer' src={profilePicture} alt="Token" />
+                <NavLink to='/profile'><img className='h-45 pl-15 cursor-pointer' src={profilePicture} alt="Token" /></NavLink>
             </div>
         </header>
     )

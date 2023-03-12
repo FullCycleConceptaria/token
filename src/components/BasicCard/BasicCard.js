@@ -1,9 +1,9 @@
-export default function BasicCard({title, text}) {
+export default function BasicCard({title, text, img}) {
   return (
-    <div className='w-full bora-8 b-surface-1 mt-20 overflow-hidden' style={{ height: '30%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.25)' }}>
+    <div className='w-full bora-8 b-surface-1 mt-20 overflow-hidden' style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.25)' }}>
       <div
         className='b-primary-container w-full'
-        style={{ height: '60%' }}
+        style={{ height: '10rem', background: `url(${img}) no-repeat center/cover` }}
       ></div>
       <div className='d-flex-column w-full h-full p-16'>
         <div className='d-flex-row w-full ai-center jc-space-between'>
