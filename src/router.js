@@ -8,6 +8,8 @@ import Asbl from "./pages/home/asbl/asbl";
 import Groups from "./pages/home/groups/groups";
 import Propositions from "./pages/home/propositions/propositions";
 import Requests from "./pages/home/requests/requests";
+import Profile from "./pages/profile/profile";
+import ProfileEditing from './pages/profile/profileEditing/profileEditing';
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: '/sign-up',
         element: <SignUp />,
+      },
+      {
+        path: '/profile',
+        element: <Profile />
       },
     ],
   },
