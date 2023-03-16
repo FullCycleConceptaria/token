@@ -8,7 +8,7 @@ import ModaleAdd from "../../components/ModaleAdd/ModaleAdd";
 export default function Home() {
   const [add, setAdd] = useState(false);
   return (
-    <div className='w-full h-full d-flex-column' style={{maxHeight: '100vh'}}>
+    <div className='w-full h-full d-flex-column pos-relative' style={{maxHeight: '100vh'}}>
       {add && (
         <ModaleAdd setAdd={setAdd}/>
       )}

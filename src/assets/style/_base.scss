@@ -35,11 +35,10 @@ a {
   max-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  // overflow: hidden;
   max-width: 50rem;
   background: var(--surface);
   position: relative;
-  overflow: hidden;
 }
 
 .material-symbols-outlined {
