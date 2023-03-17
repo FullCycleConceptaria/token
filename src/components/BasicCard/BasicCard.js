@@ -1,6 +1,6 @@
 export default function BasicCard({title, text, img}) {
   return (
-    <div className='w-full bora-8 b-surface-1 mt-20 overflow-hidden' style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.25)' }}>
+    <div className='w-full bora-8 b-surface-1 mt-20 overflow-hidden' style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.25)', minHeight: '17rem' }}>
       <div
         className='w-full'
         style={{ height: '10rem', background: `url(${img}) no-repeat center/cover`, backgroundColor: '#EADDFF' }}

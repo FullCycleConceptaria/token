@@ -1,0 +1,11 @@
+@import '../../../assets/style/variable';
+
+.scroll {
+  &::-webkit-scrollbar {
+    width: .3rem;
+    background: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--surface-5);
+  }
+}
